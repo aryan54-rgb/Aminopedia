@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1><b><title >Aminonopedia</title></b></h1>
+    <meta name="viewport" content="width-device width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body >
+    <h1><b><span style="background-color :darkgreen ;">AMINOPEDIA</span></b></h1>
+    <hr>
+    <marquee><h2><b>Types of Amino acid derivatives</b></h2></marquee>
+    <ol type="A">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Neurotransmitter precursors</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="Chem project.html" target="_blank">Home</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) 
+                  {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+            
+        <li>Hormonal Derivatives</li>
+        <li>Peptides</li>
+        <li>Post translational modifications</li>
+        <li>Amino Sugars</li>
+        <li>Bioactive peptides</li>
+        <li>Secondary metabolites</li>
+    </ol>
+    <hr>
+    <h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="image_avatar.png" alt="Avatar" class="image" >
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
